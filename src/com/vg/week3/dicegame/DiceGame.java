@@ -63,5 +63,10 @@ public class DiceGame {
 	public static void main(String[] args) {
 		DiceGame game = new DiceGame();
 		game.play();
+		System.out.println();
+		System.out.print("Press Enter to exit.");
+		java.util.Scanner input = new java.util.Scanner(System.in);
+		input.nextLine();
+		input.close();
 	}
 }
